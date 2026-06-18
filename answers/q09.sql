@@ -1,3 +1,3 @@
--- Ortalama sipariş tutarından yüksek siparişlerin order_id ve total_amount değerini, tutara göre azalan getir.
+-- order_id'si 5 olan siparişin tutarından daha yüksek tutarlı siparişlerin order_id ve total_amount değerini, tutara göre azalan getir.
+-- (İpucu: alt sorgu ile o siparişin tutarını bul, ana sorguda onunla karşılaştır.)
 -- Cevabını (SQL sorgusunu) bu satırın altına yaz:
-

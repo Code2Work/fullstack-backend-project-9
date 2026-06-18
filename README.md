@@ -31,7 +31,7 @@ Her soru `answers/qNN.sql` dosyasında. Dosyanın başındaki yorum soruyu açı
 | q06 | Farklı ülkeler, alfabetik | DISTINCT |
 | q07 | Adı 'A' ile başlayan müşteriler | LIKE |
 | q08 | customer_id 1, 3, 5 olan müşteriler | IN |
-| q09 | Ortalama tutardan yüksek siparişler | subquery + AVG |
+| q09 | Belirli bir siparişten yüksek tutarlı siparişler | subquery + karşılaştırma |
 | q10 | En yüksek tutarlı siparişi veren müşteri | subquery |
 
 ## Başlamadan Önce

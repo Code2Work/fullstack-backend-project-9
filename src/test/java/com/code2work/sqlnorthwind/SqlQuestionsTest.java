@@ -176,9 +176,9 @@ class SqlQuestionsTest {
     }
 
     @Test
-    @DisplayName("q09: ortalamadan yüksek siparişler (subquery + AVG)")
+    @DisplayName("q09: belirli bir siparişten yüksek tutarlı siparişler (subquery + karşılaştırma)")
     void q09() throws Exception {
-        check("q09.sql", new String[][]{{"6", "1899"}, {"3", "1250.75"}});
+        check("q09.sql", new String[][]{{"6", "1899"}, {"3", "1250.75"}, {"2", "499.99"}});
     }
 
     @Test
